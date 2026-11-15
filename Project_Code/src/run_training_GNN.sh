@@ -1,0 +1,10 @@
+python GNN/classification.py      --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=500
+python GNN/regression.py          --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=500
+python GNN/classification.py      --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=25
+python GNN/regression.py          --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=25
+python GNN/classification.py      --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=250
+python GNN/regression.py          --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=250
+python GNN/classification.py      --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=100
+python GNN/regression.py          --batch_size=2048 --num_epochs=100 --train_percent=-1   --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]" --average_n_features=100
+# python GNN/regression.py      --batch_size=1024 --num_epochs=100 --train_percent=0.3  --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]"
+# python GNN/classification.py  --batch_size=1024 --num_epochs=100 --train_percent=0.3  --lrs="[1e-5, 1e-4, 1e-3, 1e-2, 1e-1]"
